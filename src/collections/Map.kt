@@ -11,7 +11,7 @@ fun main() {
 
     //MutableMaps
 
-        var map3 = HashMap<Int,String>() //-> mutable,dinamik
+        val map3 = HashMap<Int,String>() //-> mutable,dinamik
         map3[1] = "Ali" //-> put keyword
         map3[2] = "Ahmet"
         map3[3] = "Bahar"

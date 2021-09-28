@@ -14,6 +14,7 @@ fun main() {
 
     println("Kotlin" concat "Android")
 }
-infix fun Int.sum(num : Int): Int = this + num
 
-infix fun String.concat(other:String): String = this + other
+infix fun Int.sum(num: Int): Int = this + num
+
+infix fun String.concat(other: String): String = this + other
